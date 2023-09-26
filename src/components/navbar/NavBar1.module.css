@@ -1,0 +1,36 @@
+.navbar{
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 119px;
+    height: 32px;
+}
+
+.flag{
+    width: 34px;
+    height: 24px;
+}
+
+.carIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.hostText{
+    color: #212529 !important;
+    font-family: "Switzer";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.4px;
+    text-decoration-line: underline;
+}
+
+.hamburgerIcon{
+    margin-left: 20px;
+}
+

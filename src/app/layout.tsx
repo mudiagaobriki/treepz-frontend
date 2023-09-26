@@ -1,6 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import NavBar1 from "@/components/navbar/NavBar1";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer1 from "@/components/footer/Footer1";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +22,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <header>
-          <h1>Welcome to Treepz</h1>
+          <NavBar1 />
         </header>
-        {children}
+        <div id="page-body">
+            {children}
+            <Footer1 />
+        </div>
       </body>
     </html>
   )

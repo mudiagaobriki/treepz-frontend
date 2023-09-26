@@ -19,3 +19,32 @@
 body {
   color: rgb(var(--foreground-rgb));
 }
+
+header{
+  padding: 6px 80px;
+  border-bottom: #E9EBEC solid 1px;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url('Switzer-Variable.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#page-body{
+  padding: 0 120px;
+}
+
+:root {
+  --button-large-font-family: "Switzer-Semibold", Helvetica;
+  --button-large-font-size: 16px;
+  --button-large-font-style: normal;
+  --button-large-font-weight: 400;
+  --button-large-letter-spacing: 0.5px;
+  --button-large-line-height: 24px;
+}
